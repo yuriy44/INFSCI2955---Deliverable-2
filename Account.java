@@ -105,10 +105,6 @@ public class Account {
 	 * @return date opened
 	 */
 	public Date getdateOpend() {
-		/**
-		 * liaofeng says: pay attention to getter's name the dateOpened's getter
-		 * is getDateOpened, not getdateOpened
-		 */
 		return dateOpened; // get the dateOpened
 	}
 
@@ -118,9 +114,6 @@ public class Account {
 	 * @return open by
 	 */
 	public String getopenBy() {
-		/**
-		 * liaofeng says: change getopenBy() to getOpenBy()
-		 */
 		return openBy; // get the openBy
 	}
 
@@ -130,9 +123,6 @@ public class Account {
 	 * @return date of transaction
 	 */
 	public Date getdateOfTransaction() {
-		/**
-		 * liaofeng says: recorrect the getter name also
-		 */
 		return dateOfTransaction; // get the dateOftransction
 	}
 
